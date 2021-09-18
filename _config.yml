@@ -1,0 +1,32 @@
+theme: just-the-docs
+title: bsapi.js
+description: Documentation For bsapi.js
+search_enabled: true
+footer_content: Copyright &copy; by <a href="https://github.com/brawlie">Team Brawley</a>. A documentation made by the contributors of bsapi.js for its users.
+heading_anchors: true
+nav_sort: case_sensitive
+permalink: pretty
+color_scheme: nil
+
+aux_links:
+  API: "//cr.is-a.dev"
+  Repository: "//github.com/brawlie/bs-api"
+  npmjs: "//npmjs.com/package/bsapi.js"
+  
+plugins:
+  - jekyll-seo-tag
+  
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  
+remote_theme: pmarsceill/just-the-docs
